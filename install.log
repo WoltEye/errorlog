@@ -1,0 +1,669 @@
+Could not determine the filesystem: parted.FileSystem instance --
+  type: linux-swap(v1)  geometry: <parted.geometry.Geometry object at 0x7f8e30779790>  checked: False
+  PedFileSystem: <_ped.FileSystem object at 0x7f8e3077b340>
+Hardware model detected: Micro-Star International Co., Ltd. MS-7B18; UEFI mode: True
+Processor model detected: Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz
+Memory statistics: 15108928 available out of 16313156 total installed
+Could not detect virtual system: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [1]: none
+
+System is not running in a VM: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [1]: none
+
+Virtualization detected: None; is VM: False
+Graphics devices detected: dict_keys(['NVIDIA Corporation GP106 [GeForce GTX 1060 6GB] (rev a1)'])
+Disk states before installing: [
+    {
+        "children": [],
+        "fsavail": 0,
+        "fsroots": [
+            "."
+        ],
+        "fstype": "squashfs",
+        "fsuse_percentage": "100%",
+        "fsver": "4.0",
+        "log_sec": 512,
+        "mountpoint": "/run/archiso/airootfs",
+        "mountpoints": [
+            "/run/archiso/airootfs"
+        ],
+        "name": "loop0",
+        "parttype": null,
+        "partuuid": null,
+        "path": "/dev/loop0",
+        "pkname": null,
+        "pttype": null,
+        "ptuuid": null,
+        "rota": false,
+        "size": "673 MiB",
+        "tran": null,
+        "type": "loop",
+        "uuid": null
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "fsavail": null,
+                "fsroots": [],
+                "fstype": "ntfs",
+                "fsuse_percentage": null,
+                "fsver": null,
+                "log_sec": 512,
+                "mountpoint": null,
+                "mountpoints": [],
+                "name": "sda1",
+                "parttype": "0x7",
+                "partuuid": "6341cc1d-01",
+                "path": "/dev/sda1",
+                "pkname": "sda",
+                "pttype": "dos",
+                "ptuuid": "6341cc1d",
+                "rota": true,
+                "size": "50 MiB",
+                "tran": null,
+                "type": "part",
+                "uuid": "2EF0948CF0945BC1"
+            },
+            {
+                "children": [],
+                "fsavail": null,
+                "fsroots": [],
+                "fstype": "ntfs",
+                "fsuse_percentage": null,
+                "fsver": null,
+                "log_sec": 512,
+                "mountpoint": null,
+                "mountpoints": [],
+                "name": "sda2",
+                "parttype": "0x7",
+                "partuuid": "6341cc1d-02",
+                "path": "/dev/sda2",
+                "pkname": "sda",
+                "pttype": "dos",
+                "ptuuid": "6341cc1d",
+                "rota": true,
+                "size": "953816 MiB",
+                "tran": null,
+                "type": "part",
+                "uuid": "0AF82D86F82D70DD"
+            }
+        ],
+        "fsavail": null,
+        "fsroots": [],
+        "fstype": null,
+        "fsuse_percentage": null,
+        "fsver": null,
+        "log_sec": 512,
+        "mountpoint": null,
+        "mountpoints": [],
+        "name": "sda",
+        "parttype": null,
+        "partuuid": null,
+        "path": "/dev/sda",
+        "pkname": null,
+        "pttype": "dos",
+        "ptuuid": "6341cc1d",
+        "rota": true,
+        "size": "953869 MiB",
+        "tran": "sata",
+        "type": "disk",
+        "uuid": null
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "fsavail": null,
+                "fsroots": [],
+                "fstype": "vfat",
+                "fsuse_percentage": null,
+                "fsver": "FAT32",
+                "log_sec": 512,
+                "mountpoint": null,
+                "mountpoints": [],
+                "name": "sdb1",
+                "parttype": "0xc",
+                "partuuid": "001afca1-01",
+                "path": "/dev/sdb1",
+                "pkname": "sdb",
+                "pttype": "dos",
+                "ptuuid": "001afca1",
+                "rota": true,
+                "size": "29567 MiB",
+                "tran": null,
+                "type": "part",
+                "uuid": "5E2E-A005"
+            }
+        ],
+        "fsavail": null,
+        "fsroots": [],
+        "fstype": null,
+        "fsuse_percentage": null,
+        "fsver": null,
+        "log_sec": 512,
+        "mountpoint": null,
+        "mountpoints": [],
+        "name": "sdb",
+        "parttype": null,
+        "partuuid": null,
+        "path": "/dev/sdb",
+        "pkname": null,
+        "pttype": "dos",
+        "ptuuid": "001afca1",
+        "rota": true,
+        "size": "29568 MiB",
+        "tran": "usb",
+        "type": "disk",
+        "uuid": null
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "fsavail": null,
+                "fsroots": [],
+                "fstype": "vfat",
+                "fsuse_percentage": null,
+                "fsver": "FAT32",
+                "log_sec": 512,
+                "mountpoint": null,
+                "mountpoints": [],
+                "name": "nvme0n1p1",
+                "parttype": "c12a7328-f81f-11d2-ba4b-00a0c93ec93b",
+                "partuuid": "657672e4-eafc-4518-a308-35328bc109cb",
+                "path": "/dev/nvme0n1p1",
+                "pkname": "nvme0n1",
+                "pttype": "gpt",
+                "ptuuid": "801de8ea-787e-4aeb-83f9-2beca19e33e8",
+                "rota": false,
+                "size": "100 MiB",
+                "tran": "nvme",
+                "type": "part",
+                "uuid": "DE46-78A2"
+            },
+            {
+                "children": [],
+                "fsavail": null,
+                "fsroots": [],
+                "fstype": null,
+                "fsuse_percentage": null,
+                "fsver": null,
+                "log_sec": 512,
+                "mountpoint": null,
+                "mountpoints": [],
+                "name": "nvme0n1p2",
+                "parttype": "e3c9e316-0b5c-4db8-817d-f92df00215ae",
+                "partuuid": "8326e490-a8d1-4c04-b2f3-5879a1896425",
+                "path": "/dev/nvme0n1p2",
+                "pkname": "nvme0n1",
+                "pttype": "gpt",
+                "ptuuid": "801de8ea-787e-4aeb-83f9-2beca19e33e8",
+                "rota": false,
+                "size": "16 MiB",
+                "tran": "nvme",
+                "type": "part",
+                "uuid": null
+            },
+            {
+                "children": [],
+                "fsavail": null,
+                "fsroots": [],
+                "fstype": "ntfs",
+                "fsuse_percentage": null,
+                "fsver": null,
+                "log_sec": 512,
+                "mountpoint": null,
+                "mountpoints": [],
+                "name": "nvme0n1p3",
+                "parttype": "ebd0a0a2-b9e5-4433-87c0-68b6b72699c7",
+                "partuuid": "962c287b-e335-45d8-94a9-9a87d7503211",
+                "path": "/dev/nvme0n1p3",
+                "pkname": "nvme0n1",
+                "pttype": "gpt",
+                "ptuuid": "801de8ea-787e-4aeb-83f9-2beca19e33e8",
+                "rota": false,
+                "size": "137846 MiB",
+                "tran": "nvme",
+                "type": "part",
+                "uuid": "8AAC4716AC46FBE7"
+            },
+            {
+                "children": [],
+                "fsavail": null,
+                "fsroots": [],
+                "fstype": "vfat",
+                "fsuse_percentage": null,
+                "fsver": "FAT32",
+                "log_sec": 512,
+                "mountpoint": null,
+                "mountpoints": [],
+                "name": "nvme0n1p4",
+                "parttype": "c12a7328-f81f-11d2-ba4b-00a0c93ec93b",
+                "partuuid": "7e7b9b79-e150-4324-bde9-455d1a59ce92",
+                "path": "/dev/nvme0n1p4",
+                "pkname": "nvme0n1",
+                "pttype": "gpt",
+                "ptuuid": "801de8ea-787e-4aeb-83f9-2beca19e33e8",
+                "rota": false,
+                "size": "800 MiB",
+                "tran": "nvme",
+                "type": "part",
+                "uuid": "CDDA-81E2"
+            },
+            {
+                "children": [],
+                "fsavail": null,
+                "fsroots": [],
+                "fstype": "swap",
+                "fsuse_percentage": null,
+                "fsver": "1",
+                "log_sec": 512,
+                "mountpoint": "[SWAP]",
+                "mountpoints": [
+                    "[SWAP]"
+                ],
+                "name": "nvme0n1p5",
+                "parttype": "0657fd6d-a4ab-43c4-84e5-0933c84b4f4f",
+                "partuuid": "f9c7347f-341b-47dd-a5bb-cdf2b8d358a1",
+                "path": "/dev/nvme0n1p5",
+                "pkname": "nvme0n1",
+                "pttype": "gpt",
+                "ptuuid": "801de8ea-787e-4aeb-83f9-2beca19e33e8",
+                "rota": false,
+                "size": "7168 MiB",
+                "tran": "nvme",
+                "type": "part",
+                "uuid": "4ceb1f65-ce3b-4e85-a1c2-0e14856041d1"
+            },
+            {
+                "children": [],
+                "fsavail": null,
+                "fsroots": [],
+                "fstype": "ntfs",
+                "fsuse_percentage": null,
+                "fsver": null,
+                "log_sec": 512,
+                "mountpoint": null,
+                "mountpoints": [],
+                "name": "nvme0n1p6",
+                "parttype": "c12a7328-f81f-11d2-ba4b-00a0c93ec93b",
+                "partuuid": "02ac885b-b4d0-47ac-ab2e-bd4096b19c36",
+                "path": "/dev/nvme0n1p6",
+                "pkname": "nvme0n1",
+                "pttype": "gpt",
+                "ptuuid": "801de8ea-787e-4aeb-83f9-2beca19e33e8",
+                "rota": false,
+                "size": "509 MiB",
+                "tran": "nvme",
+                "type": "part",
+                "uuid": "58D0A4B7D0A49CAE"
+            },
+            {
+                "children": [],
+                "fsavail": null,
+                "fsroots": [],
+                "fstype": "ext4",
+                "fsuse_percentage": null,
+                "fsver": "1.0",
+                "log_sec": 512,
+                "mountpoint": null,
+                "mountpoints": [],
+                "name": "nvme0n1p7",
+                "parttype": "0fc63daf-8483-4772-8e79-3d69d8477de4",
+                "partuuid": "95734078-95f9-4b77-b18e-bdbd6dabb6a3",
+                "path": "/dev/nvme0n1p7",
+                "pkname": "nvme0n1",
+                "pttype": "gpt",
+                "ptuuid": "801de8ea-787e-4aeb-83f9-2beca19e33e8",
+                "rota": false,
+                "size": "92033 MiB",
+                "tran": "nvme",
+                "type": "part",
+                "uuid": "9b5bec66-e9c6-499d-8411-aa106a1d8eed"
+            }
+        ],
+        "fsavail": null,
+        "fsroots": [],
+        "fstype": null,
+        "fsuse_percentage": null,
+        "fsver": null,
+        "log_sec": 512,
+        "mountpoint": null,
+        "mountpoints": [],
+        "name": "nvme0n1",
+        "parttype": null,
+        "partuuid": null,
+        "path": "/dev/nvme0n1",
+        "pkname": null,
+        "pttype": "gpt",
+        "ptuuid": "801de8ea-787e-4aeb-83f9-2beca19e33e8",
+        "rota": false,
+        "size": "238475 MiB",
+        "tran": "nvme",
+        "type": "disk",
+        "uuid": null
+    }
+]
+Testing connectivity to the Arch Linux mirrors...
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/__init__.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/custom.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktop.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/minimal.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/server.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/tailored.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/xorg.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/applications/__init__.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/applications/pipewire.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/__init__.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/awesome.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/bspwm.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/budgie.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/cinnamon.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/cutefish.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/deepin.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/enlightenment.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/gnome.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/hyperland.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/i3.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/kde.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/lxqt.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/mate.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/qtile.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/sway.py
+Cannot import <module 'sway' from '/usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/sway.py'>, it does not appear to be a Profile class
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/desktops/xfce4.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/servers/__init__.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/servers/cockpit.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/servers/docker.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/servers/httpd.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/servers/lighttpd.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/servers/mariadb.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/servers/nginx.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/servers/postgresql.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/servers/sshd.py
+Importing profile: /usr/lib/python3.11/site-packages/archinstall/default_profiles/servers/tomcat.py
+Password strength: weak
+Some packages could not be found in the repository: ['xgd-user-dirs']
+Saving user_config configuration files to /
+ -- Chosen configuration --
+{
+    "__separator__": null,
+    "additional-repositories": [
+        "multilib"
+    ],
+    "archinstall-language": "English",
+    "audio_config": null,
+    "bootloader": "Grub",
+    "config_version": "2.6.0",
+    "debug": false,
+    "disk_config": {
+        "config_type": "manual_partitioning",
+        "device_modifications": [
+            {
+                "device": "/dev/nvme0n1",
+                "partitions": [
+                    {
+                        "btrfs": [],
+                        "flags": [
+                            "Boot",
+                            "ESP"
+                        ],
+                        "fs_type": "fat32",
+                        "length": {
+                            "sector_size": null,
+                            "total_size": null,
+                            "unit": "B",
+                            "value": 104857600
+                        },
+                        "mount_options": [],
+                        "mountpoint": null,
+                        "obj_id": "87537d75-ad5c-4283-b1f6-7cbe31ce35c4",
+                        "start": {
+                            "sector_size": {
+                                "sector_size": null,
+                                "total_size": null,
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "total_size": null,
+                            "unit": "sectors",
+                            "value": 2048
+                        },
+                        "status": "existing",
+                        "type": "primary"
+                    },
+                    {
+                        "btrfs": [],
+                        "flags": [],
+                        "fs_type": "",
+                        "length": {
+                            "sector_size": null,
+                            "total_size": null,
+                            "unit": "B",
+                            "value": 16777216
+                        },
+                        "mount_options": [],
+                        "mountpoint": null,
+                        "obj_id": "c3ea2191-9831-4b18-80c5-6be54a7e7cec",
+                        "start": {
+                            "sector_size": {
+                                "sector_size": null,
+                                "total_size": null,
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "total_size": null,
+                            "unit": "sectors",
+                            "value": 206848
+                        },
+                        "status": "existing",
+                        "type": "primary"
+                    },
+                    {
+                        "btrfs": [],
+                        "flags": [],
+                        "fs_type": "ntfs",
+                        "length": {
+                            "sector_size": null,
+                            "total_size": null,
+                            "unit": "B",
+                            "value": 144542341632
+                        },
+                        "mount_options": [],
+                        "mountpoint": null,
+                        "obj_id": "3e72d29e-0663-48b0-a89b-19435390b633",
+                        "start": {
+                            "sector_size": {
+                                "sector_size": null,
+                                "total_size": null,
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "total_size": null,
+                            "unit": "sectors",
+                            "value": 239616
+                        },
+                        "status": "existing",
+                        "type": "primary"
+                    },
+                    {
+                        "btrfs": [],
+                        "flags": [
+                            "Boot",
+                            "ESP"
+                        ],
+                        "fs_type": "fat32",
+                        "length": {
+                            "sector_size": null,
+                            "total_size": null,
+                            "unit": "B",
+                            "value": 838860800
+                        },
+                        "mount_options": [],
+                        "mountpoint": "/boot",
+                        "obj_id": "53d23d3d-4fca-470c-9c26-aea8f484052b",
+                        "start": {
+                            "sector_size": {
+                                "sector_size": null,
+                                "total_size": null,
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "total_size": null,
+                            "unit": "sectors",
+                            "value": 282550272
+                        },
+                        "status": "modify",
+                        "type": "primary"
+                    },
+                    {
+                        "btrfs": [],
+                        "flags": [],
+                        "fs_type": "",
+                        "length": {
+                            "sector_size": null,
+                            "total_size": null,
+                            "unit": "B",
+                            "value": 7516192768
+                        },
+                        "mount_options": [],
+                        "mountpoint": "[SWAP]",
+                        "obj_id": "ad79e8c5-702b-4def-aeaa-79e6b32ad967",
+                        "start": {
+                            "sector_size": {
+                                "sector_size": null,
+                                "total_size": null,
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "total_size": null,
+                            "unit": "sectors",
+                            "value": 284188672
+                        },
+                        "status": "existing",
+                        "type": "primary"
+                    },
+                    {
+                        "btrfs": [],
+                        "flags": [],
+                        "fs_type": "ext4",
+                        "length": {
+                            "sector_size": null,
+                            "total_size": null,
+                            "unit": "B",
+                            "value": 96503595008
+                        },
+                        "mount_options": [],
+                        "mountpoint": "/",
+                        "obj_id": "e4ebaf82-292d-4e78-acc6-90b47c5bfc35",
+                        "start": {
+                            "sector_size": {
+                                "sector_size": null,
+                                "total_size": null,
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "total_size": null,
+                            "unit": "sectors",
+                            "value": 298868736
+                        },
+                        "status": "modify",
+                        "type": "primary"
+                    },
+                    {
+                        "btrfs": [],
+                        "flags": [
+                            "Boot",
+                            "ESP"
+                        ],
+                        "fs_type": "ntfs",
+                        "length": {
+                            "sector_size": null,
+                            "total_size": null,
+                            "unit": "B",
+                            "value": 533725184
+                        },
+                        "mount_options": [],
+                        "mountpoint": null,
+                        "obj_id": "6b74b7d7-f828-4466-b28a-15d839c36dff",
+                        "start": {
+                            "sector_size": {
+                                "sector_size": null,
+                                "total_size": null,
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "total_size": null,
+                            "unit": "sectors",
+                            "value": 487352320
+                        },
+                        "status": "existing",
+                        "type": "primary"
+                    }
+                ],
+                "wipe": false
+            }
+        ]
+    },
+    "disk_encryption": null,
+    "hostname": "arch",
+    "kernels": [
+        "linux",
+        "linux-lts"
+    ],
+    "locale_config": {
+        "kb_layout": "fi",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US"
+    },
+    "mirror_config": {
+        "custom_mirrors": [],
+        "mirror_regions": {
+            "Finland": [
+                "https://mirror.wuki.li/archlinux/$repo/os/$arch",
+                "https://mirror.srv.fail/archlinux/$repo/os/$arch",
+                "https://mirror.hel.sl-chat.ru/archlinux/$repo/os/$arch",
+                "https://mirror.5i.fi/archlinux/$repo/os/$arch",
+                "https://arch.yhtez.xyz/$repo/os/$arch",
+                "https://arch.kyberorg.fi/$repo/os/$arch",
+                "http://mirror.wuki.li/archlinux/$repo/os/$arch",
+                "http://mirror.5i.fi/archlinux/$repo/os/$arch",
+                "http://arch.yhtez.xyz/$repo/os/$arch",
+                "http://arch.mirror.far.fi/$repo/os/$arch",
+                "http://arch.kyberorg.fi/$repo/os/$arch"
+            ]
+        }
+    },
+    "network_config": {},
+    "no_pkg_lookups": false,
+    "ntp": true,
+    "offline": false,
+    "packages": [
+        "git",
+        "nano",
+        "xdg-user-dirs"
+    ],
+    "parallel downloads": 0,
+    "profile_config": {
+        "gfx_driver": null,
+        "greeter": null,
+        "profile": {
+            "custom_settings": {},
+            "details": [],
+            "main": "Minimal"
+        }
+    },
+    "save_config": null,
+    "script": "guided",
+    "silent": false,
+    "swap": true,
+    "timezone": "Etc/GMT+3",
+    "version": "2.6.0"
+}
+Unmounting all partitions: /dev/nvme0n1
+Unmounting: /dev/nvme0n1p1
+Unmounting: /dev/nvme0n1p2
+Unmounting: /dev/nvme0n1p3
+Unmounting: /dev/nvme0n1p4
+Unmounting: /dev/nvme0n1p5
+Partition /dev/nvme0n1p5 is currently mounted at: ['[SWAP]']
+Unmounting mountpoint: [SWAP]
